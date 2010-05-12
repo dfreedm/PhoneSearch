@@ -1,0 +1,18 @@
+﻿/* ================================================================ **
+** ie-transparency.css
+** ---------------------------------------------------------------- **
+** Created: 18-05-08 (dd-mm-yy)
+** Author: onedollartemplates.com
+** Template: Job Pond
+** ================================================================ */
+* html #search div { 
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/search__.png", sizingMethod="crop"); 	
+	zoom: 1;	
+	}
+	
+* html #search form span {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/ico_magnify.png", sizingMethod="crop"); 	
+	zoom: 1;
+	}	

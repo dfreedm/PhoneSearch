@@ -1,0 +1,57 @@
+<html>
+<head>
+    <title>Phone Searcher</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript">
+
+function display(hashcode) {
+    var element = $("#" + hashcode);
+    if (element.hasClass("hide")) {
+        element.slideDown('1000', function() { element.removeClass("hide"); });
+    } else {
+        element.slideUp('1000', function() { element.addClass("hide");});
+        
+    }
+}
+
+var floading = function() {
+    $("#loading").slideDown('fast', function() {
+        $("#loading").removeClass("hide");    
+    });
+    $("#searchform").submit();
+}
+
+    </script>
+    <style type="text/css">
+    
+    </style>
+</head>
+<body>
+    <center>
+    <p>
+        <h2>Phone Searcher</h2>
+    </p>
+    <p>
+        <form id="searchform" action="/search" method="GET" onsubmit="floading();">
+            <input type="text" name="query" /><br />
+        </form>
+        <input type="button" value="Search" onclick="floading()" />
+        <br />
+        <img id="loading" src="/static/ajax-loader.gif" class="hide" />
+    </p>
+    </center>
+    <p>
+        {% if not count %}
+            <h3>No results found.</h3>
+        {% else %}
+            <h3>Found {{ count }} results:</h3>
+            {% for hit in results %}
+                <h3><a href="#" onclick="display('{{ hit.unique }}');" style="margin-bottom: 10px;">{{ hit.title }}</a></h3>
+                    <div id="{{ hit.unique }}" class="hide">
+                        {{ hit.contents|safe }}
+                    </div>
+            {% endfor %}
+        {% endif %}
+    </p>
+</body>
+</html>

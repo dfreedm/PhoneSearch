@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Job Pond</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="imagetoolbar" content="no" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<meta name="copyright" content="" />	  
+	<meta name="revisit-after" content="3 days" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<!--[if IE]><link href="css/ie-transparency.css" rel="stylesheet" type="text/css" /><![endif]-->	
+	
+	<script src="js/jquery.js" type="text/javascript"></script>    
+	<script src="js/main.js" type="text/javascript"></script>
+</head>
+
+<body>
+<ul class="hide"><li><a href="#body">Skip to content</a></li></ul>
+<div id="container">
+	<div id="header">
+		<h1><a href="index.html">Job<span>Pond</span></a></h1>
+		<ul>
+			<li><a href="index.html">home</a></li>
+			<li><a href="about.html">about</a></li>
+			<li><a href="contact.html">contact</a></li>
+		</ul>
+	</div>
+	
+	<div id="search"><div>
+		<form method="get" action="">
+			<fieldset>
+				<legend>Search</legend>
+				<p><input type="text" name="search" value="Job title, location" /> 
+				<input type="submit" class="btn" value="Go" /></p>
+				<span>&nbsp;</span>
+			</fieldset>
+		</form>
+	</div></div>
+	
+	<ul id="nav">
+		<li class="on"><a href="index.html">All</a></li>
+		<li><a href="fullTime.html">Full-time</a></li>
+		<li><a href="freelance.html">Freelance</a></li>
+		<li><a href="postJob.html">Post a job</a></li>
+		<li><a href="stylePlayground.html">Style playground</a></li>
+	</ul>	
+	
+	<div id="body">
+		<table id="jobs">
+			<thead>
+				<tr>
+					<th scope="col">Location</th>
+					<th scope="col" class="wide">Position</th>
+					<th scope="col">Employment</th>
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+					<td>&nbsp;</td>
+				</tr>
+			</tfoot>
+			<tbody>
+				<tr>
+					<td>London, UK</td>
+					<td>
+						<a href="jobInfo.html"><strong>Web designer</strong></a><br/>
+						Future Solutions
+					</td>
+					<td>						
+						<em class="highlight right">NEW</em>
+						Full-time
+					</td>
+				</tr>
+				<tr>
+					<td>Vancouver, CN</td>
+					<td>
+						<a href="jobInfo.html"><strong>PHP programmer</strong></a><br/>
+						Dynamic Drive</td>
+					<td>						
+						<em class="highlight right">NEW</em>
+						Full-time
+					</td>
+				</tr>
+				<tr>
+					<td>Anywhere</td>
+					<td>
+						<a href="jobInfo.html"><strong>Front end developer</strong></a><br/>
+						Slicer Box
+					</td>
+					<td>Freelance</td>
+				</tr>
+				<tr>
+					<td>London, UK</td>
+					<td>
+						<a href="jobInfo.html"><strong>Web designer</strong></a><br/>
+						Future Solutions
+					</td>
+					<td>Full-time</td>
+				</tr>
+				<tr>
+					<td>Vancouver, CN</td>
+					<td>
+						<a href="jobInfo.html"><strong>PHP programmer</strong></a><br/>
+						Dynamic Drive
+					</td>
+					<td>Full-time</td>
+				</tr>
+				<tr>
+					<td>Anywhere</td>
+					<td>
+						<a href="jobInfo.html"><strong>Front end developer</strong></a><br/>
+						Slicer Box
+					</td>
+					<td>Freelance</td>
+				</tr>	
+				<tr>
+					<td>London, UK</td>
+					<td>
+						<a href="jobInfo.html"><strong>Web designer</strong></a><br/>
+						Future Solutions
+					</td>
+					<td>Full-time</td>
+				</tr>
+				<tr>
+					<td>Vancouver, CN</td>
+					<td>
+						<a href="jobInfo.html"><strong>PHP programmer</strong></a><br/>
+						Dynamic Drive
+					</td>
+					<td>Full-time</td>
+				</tr>
+				<tr>
+					<td>Anywhere</td>
+					<td>
+						<a href="jobInfo.html"><strong>Front end developer</strong></a><br/>
+						Slicer Box
+					</td>
+					<td>Freelance</td>
+				</tr>
+				<tr>
+					<td>London, UK</td>
+					<td>
+						<a href="jobInfo.html"><strong>Web designer</strong></a><br/>
+						Future Solutions
+					</td>
+					<td>Full-time</td>
+				</tr>																																
+			</tbody>			
+		</table>
+		<ol class="paginate right">
+			<li class="on"><a href="#">1</a></li>	
+			<li><a href="#">2</a></li>	
+			<li><a href="#">3</a></li>	
+			<li><a href="#">4</a></li>	
+			<li><a href="#">5</a></li>													
+		</ol>
+	</div>
+
+	<div id="footer">
+		<p class="left">
+			&copy; 2008 Company name.<br/>
+			Template by <a href="http://www.onedollartemplates.com">One Dollar Templates</a>.
+			<strong>Bright!</strong> icon from <a href="http://min.frexy.com/">Min Tran</a>.
+		</p>
+		<ul class="right">
+			<li><a href="index.html">home</a></li>
+			<li><a href="about.html">about</a></li>
+			<li><a href="contact.html">contact</a></li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>

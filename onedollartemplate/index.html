@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Job Pond</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="imagetoolbar" content="no" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<meta name="copyright" content="" />	  
+	<meta name="revisit-after" content="3 days" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<!--[if IE]><link href="css/ie-transparency.css" rel="stylesheet" type="text/css" /><![endif]-->	
+	    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript">
+
+function display(hashcode) {
+    var element = $("#" + hashcode);
+    if (element.hasClass("hidden")) {
+        element.slideDown('1000', function() { element.removeClass("hidden"); });
+    } else {
+        element.slideUp('1000', function() { element.addClass("hidden");});
+        
+    }
+}
+
+var floading = function() {
+    $("#loading").slideDown('fast', function() {
+        $("#loading").removeClass("hidden");    
+    });
+    $("#searchform").submit();
+}
+
+    </script>
+    <style type="text/css">
+
+.hidden {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+    </style>
+
+</head>
+
+<body>
+<ul class="hide"><li><a href="#body">Skip to content</a></li></ul>
+<div id="container">
+	<div id="header">
+		<h1><a href="index.html">Smartphone Forum <span>Searcher</span></a></h1>
+	</div>
+	
+	<div id="search"><div>
+		<form id="forumsearch" action="/search" method="get" onsubmit="floading();">
+			<fieldset>
+				<legend>Search</legend>
+				<p><input type="text" name="query" value="" /> 
+				<input type="submit" class="btn" value="Go" /></p>
+				<span>&nbsp;</span>
+			</fieldset>
+		</form>
+	</div></div>
+	
+	<div id="body">
+		<img id="loading" src="/static/ajax-loader.gif" class="hidden" />
+        {% if not count %}
+            <h3>No results found.</h3>
+        {% else %}
+            <ul>
+            {% for hit in results %}
+                <li><a href="#" onclick="display('{{ hit.unique }}');" style="margin-bottom: 10px;">{{ hit.title }}</a></li>
+                <li><div id="{{ hit.unique }}" class="hidden" style="font: 10pt blue;">
+                    {{ hit.contents|safe }}
+                </div></li>
+
+            {% endfor %}
+            </ul>
+        {% endif %}
+        
+        
+        <ol class="paginate right">
+			<li class="on"><a href="#">1</a></li>	
+			<li><a href="#">2</a></li>	
+			<li><a href="#">3</a></li>	
+			<li><a href="#">4</a></li>	
+			<li><a href="#">5</a></li>													
+		</ol>
+	</div>
+
+	<div id="footer">
+		<p class="left">
+			&copy; 2010 Dave Paola and Dan Freedman<br/>
+		</p>
+	</div>
+</div>
+</body>
+</html>

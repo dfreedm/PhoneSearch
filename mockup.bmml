@@ -1,0 +1,85 @@
+<mockup version="1.0" skin="sketch" measuredW="883" measuredH="577" mockupW="865" mockupH="562">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="8" y="5" w="865" h="562" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Smartphone%20Forum%20Searcher%0Ahttp%3A//www.smartphoneforumsearcher.com/search%3Fquery%3Dandroid+error+5065</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::SearchBox" x="351" y="115" w="178" h="-1" measuredW="138" measuredH="25" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>android%20error%205065</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Button" x="529" y="115" w="-1" h="-1" measuredW="39" measuredH="28" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Go</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::SubTitle" x="23" y="140" w="-1" h="-1" measuredW="181" measuredH="37" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Found%205%20results%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Link" x="38" y="192" w="-1" h="-1" measuredW="446" measuredH="23" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Whenever%20I%20try%20to%20hit%20%22Force%20close%22%2C%20I%20get%20this%20error%205065.%20%20Any%20ideas%3F...</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::RoundButton" x="484" y="192" w="15" h="23" measuredW="32" measuredH="32" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <shape>rectangle</shape>
+        <text>+</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Link" x="38" y="230" w="-1" h="-1" measuredW="445" measuredH="23" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Anyone%20else%20figure%20out%20how%20to%20force%20close%3F%20%20I%20can%27t%20seem%20to%20get%20it%20to%20w...</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::RoundButton" x="484" y="230" w="15" h="23" measuredW="32" measuredH="32" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <shape>rectangle</shape>
+        <text>+</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Link" x="38" y="268" w="-1" h="-1" measuredW="444" measuredH="23" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Android%20development%20101%3A%20How%20to%20force%20close%20an%20app.%20%20Go%20to%20Settings%20-%3E...</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::RoundButton" x="484" y="268" w="15" h="23" measuredW="32" measuredH="32" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <shape>rectangle</shape>
+        <text>+</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Link" x="38" y="306" w="-1" h="-1" measuredW="438" measuredH="23" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>MSSQL%20error%205065%3A%20This%20error%20occurs%20whenever%20I%20try%20to%20configure%20a%20n...</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::RoundButton" x="484" y="306" w="15" h="23" measuredW="32" measuredH="32" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <shape>rectangle</shape>
+        <text>+</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Link" x="38" y="344" w="-1" h="-1" measuredW="437" measuredH="23" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>How%20can%20I%20get%20rid%20of%20all%20these%20android%205065%20errors%20in%20my%20eclipse%20logs%3F...</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::RoundButton" x="484" y="344" w="15" h="23" measuredW="32" measuredH="32" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <shape>rectangle</shape>
+        <text>-</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Paragraph" x="38" y="367" w="545" h="162" measuredW="200" measuredH="140" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>5263440</color>
+        <text>How%20can%20I%20get%20rid%20of%20all%20these%20android%205065%20errors%20in%20my%20eclipse%20logs%3F%20%20I%20can%27t%20find%20the%20problem.%0A%20%0AI%20don%27t%20know%20if%20it%20still%20does%2C%20but%20at%20one%20point%2C%20Visual%20Basic%20would%20let%20you%20start%20your%20array%20indexes%20at%201%20with%20Option%20Base%201.%0A%20%0AIn%20C%23%2C%20none%20of%20the%20System.Collections%20collections%20support%20this%2C%20but%20you%20could%20always%20write%20a%20wrapper%20class%20that%20does%20the%20index%20translation%20for%20you.%0A%20%0AReally%2C%20though%2C%20this%20should%20be%20avoided.%20VB%27s%20Option%20Base%20created%20more%20problems%20than%20it%20solved%2C%20I%20imagine%20because%20it%20broke%20assumptions%20and%20made%20things%20more%20confusing.</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
